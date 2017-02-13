@@ -1,0 +1,41 @@
+.root {
+    -fx-background-color: #C6EDC7;
+}
+
+.button {
+    -fx-background-color: #2D614D;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+.text-field {
+    -fx-background-color: #459475;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+}
+
+.label {
+    -fx-font: 16px "Garamond";
+    -fx-text-fill: #313732;
+    -fx-font-weight: bold;
+}
+
+#vBox {
+    -fx-border-color: #007099;
+    -fx-border-width: 2px;
+}
+
+#gridPane{
+    -fx-border-color: #007099;
+    -fx-border-width: 2px;
+}
+
+#welcomeLabel{
+    -fx-font: 24px "Garamond";
+    -fx-text-fill: #313732;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0.0, 0, 5);
+}

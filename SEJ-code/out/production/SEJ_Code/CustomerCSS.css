@@ -1,0 +1,56 @@
+.root {
+    -fx-background-color: #C6EDC7;
+}
+
+.button {
+    -fx-background-color: #2D614D;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font: 14px "Garamond";
+    -fx-text-fill: #313732;
+    -fx-font-weight: bold;
+}
+
+.table-view:focused {
+  -fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #558579;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+#customerInputTextfield {
+       -fx-background-color: #FFFFFF;
+       -fx-text-fill: black;
+       -fx-font-size: 13px;
+}
+
+#vBox {
+    -fx-border-color: #43695F;
+    -fx-border-width: 2px;
+}
+
+#labelOrders {
+    -fx-font: 20px "Garamond";
+    -fx-text-fill: #313732;
+    -fx-font-weight: bold;
+}
